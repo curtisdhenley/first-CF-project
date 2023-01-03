@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* stretch the box vertically as much as possible */
+.content {
+    flex: 1 0 auto;
+}
+
+/* make as small as possible but leave content visible */
+.footer {
+    flex-shrink: 0;
+}
+
+/* Marvel Fan Page */
+.logo-img {
+    max-width: 30%;
+}
+
+#hero-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 4em;
+    margin: 0;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 1px #292929;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+}
+
+.table-header {
+    background-color: #181818;
+    color: whitesmoke;
+    font-size: 1.5em;
+}
+
+.hero-img {
+    max-width: 200px;
+}
+
+.odd-row {
+    background-color: dimgray;
+}
+
+.even-row {
+    background-color: #d3d3d3;
+}
+
+table {
+    width: 90%;
+}
