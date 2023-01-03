@@ -1,2 +1,2 @@
 # first-project
-***https://curtisdhenley.github.io/first-project/***
+***https://curtisdhenley.github.io/first-CF-project/***
