@@ -19,7 +19,7 @@
 
 <!-- The body will contain all of the page content -->
 
-<body class="bg-img">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
@@ -49,36 +49,30 @@
         </nav>
     </header>
     <main class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <h1 class="text-center mt-3 gl-h1">The Green Lantern Corps</h1>
-                </div> <!--h1 here -->
-            </div>
-            <div class="row row-cols-1 d-flex gx-2 gy-5 justify-content-center mt-5">
-                <div class="col col-md-5">
-                    <img src="./img/Green_Lantern_Rebirth_6.jpg" class="gl-hero rounded" alt="Green Lantern">
+        <div style="background-image: url(./img/gl-bg.jpg); height: 100vh;" class="gl-bg">
+            <h1 class="text-center mt-3 gl-h1">The Green Lantern Corps</h1>
+            <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-4">
+                    <img src="./img/Green_Lantern_Rebirth_6.jpg" class="gl-hero" alt="Green Lantern">
                 </div>
-                <div class="col col-md-5 d-flex align-items-center gl-hero">
-                    <div class="opacity-75 bg-light rounded">
+                <div class="col-md-4 d-flex align-items-center gl-hero">
+                    <div class="opacity-75 bg-light">
                         <h2>“In brightest day, in blackest night, no evil shall escape my sight. Let those who worship
                             evil's might beware my power… <strong class="gl-text">Green Lantern's light!</strong>”</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col">
-                        <p class="gl-hero mt-5 text-center bg-dark rounded">Green Lantern Corps is the name of a fictional intergalactic
-                            law enforcement organization appearing in comics published by DC Comics. They patrol the farthest
-                            reaches of the DC Universe at the behest of the Guardians, a race of immortals residing on the
-                            planet Oa. According to DC continuity, the Green Lantern Corps has been in existence for three
-                            billion years. Currently operating amongst the 3600 "sectors" of the universe, there are 7204
-                            members (known commonly as Green Lanterns). There are two lanterns for every sector, with the
-                            exception of sector 2814, which has six members. Each Green Lantern is given a power ring, a weapon
-                            granting the use of incredible abilities that are directed by the wearer's own willpower. Marvel has
-                            yet to find a way to successfully rip off and make a cheap imitation of The Green Lantern Corps.</p>
-                    </div> <!--hero info -->
-                </div>
+                <p class="gl-hero mt-5 text-center bg-dark">Green Lantern Corps is the name of a fictional intergalactic
+                    law enforcement organization appearing in comics published by DC Comics. They patrol the farthest
+                    reaches of the DC Universe at the behest of the Guardians, a race of immortals residing on the
+                    planet Oa. According to DC continuity, the Green Lantern Corps has been in existence for three
+                    billion years. Currently operating amongst the 3600 "sectors" of the universe, there are 7204
+                    members (known commonly as Green Lanterns). There are two lanterns for every sector, with the
+                    exception of sector 2814, which has six members. Each Green Lantern is given a power ring, a weapon
+                    granting the use of incredible abilities that are directed by the wearer's own willpower. Marvel has
+                    yet to find a way to successfully rip off and make a cheap imitation of The Green Lantern Corps.</p>
             </div>
+
+        </div>
     </main>
     <footer class="footer">
         <div class="container bg-dark">

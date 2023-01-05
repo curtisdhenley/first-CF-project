@@ -72,10 +72,13 @@ table {
     /* position: absolute; */
 }
 
-.gl-bg {
-    background-position: center;
+.bg-img {
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/gl-bg.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .gl-hero {
